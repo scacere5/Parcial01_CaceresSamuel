@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Software Star</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/js/mijs.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabecera -->
+    <header>
+      <div><img src="assets/img/logoCUC.png" alt="logo Universidad" />Parcial 01</div>
+      <div style="margin-left: auto">Salir</div>
+    </header>
+
+    <!-- Menú izquierda -->
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width: 160px">
+      <a href="#" class="w3-bar-item w3-button">
+        <i class="fa-solid fa-house azul"></i>
+        Inicio
+      </a>
+      <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+        Equipo<i class="fa fa-caret-down"></i>
+      </button>
+      <div id="demoAcc" class="w3-hide w3-white w3-card">
+        <a href="pages/equipo_listar.html" class="w3-bar-item w3-button">Listar</a>
+        <a href="#" class="w3-bar-item w3-button">Administrar</a>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myDropFunc()">Sedes <i class="fa fa-caret-down"></i></button>
+        <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+          <a href="#" class="w3-bar-item w3-button">Agregar</a>
+          <a href="#" class="w3-bar-item w3-button">Ubicaciones</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">Acerca de</a>
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa-solid fa-right-from-bracket"></i> Salir </a>
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="w3-container" style="margin-left: 160px">
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">Inicio</a></li>
+          <li>Bienvenido</li>
+        </ul>
+      </div>
+
+      <h2>Página de inicio</h2>
+      <h3>
+        <p style="text-align: justify">
+          En <b>Software Star</b>, nos especializamos en transformar ideas innovadoras en soluciones digitales de alta
+          calidad. Con un equipo de expertos apasionados por la tecnología, ofrecemos servicios de desarrollo de
+          software a medida que se adaptan a las necesidades específicas de cada cliente. Desde aplicaciones móviles
+          hasta sistemas empresariales complejos, nuestro compromiso es entregar productos que impulsen el éxito y la
+          eficiencia de su negocio. Nuestra misión es proporcionar soluciones tecnológicas que no solo cumplan con los
+          estándares más altos de calidad, sino que también superen las expectativas de nuestros clientes. Utilizamos
+          metodologías ágiles y las mejores prácticas de la industria para asegurar que cada proyecto se complete a
+          tiempo y dentro del presupuesto. Únase a nosotros en este viaje hacia la innovación y el crecimiento. En
+          <b>Software Star</b>, su visión es nuestra misión.
+        </p>
+
+        <p style="text-align: justify">
+          En <b>Software Star</b>, nuestra misión es proporcionar soluciones tecnológicas que no solo cumplan con los
+          estándares más altos de calidad, sino que también superen las expectativas de nuestros clientes. Nos dedicamos
+          a transformar ideas innovadoras en productos digitales eficientes y efectivos, utilizando metodologías ágiles
+          y las mejores prácticas de la industria. Nuestro objetivo es asegurar que cada proyecto se complete a tiempo y
+          dentro del presupuesto, impulsando el éxito y la eficiencia de su negocio.
+        </p>
+      </h3>
+    </div>
+  </body>
+</html>
